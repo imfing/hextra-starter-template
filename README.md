@@ -1,2 +1,3 @@
-# hextra-starter-template
-🐣 Minimal template for using Hextra for Hugo
+# Hextra Starter Template
+
+🐣 Minimal template for getting started with [Hextra](https://github.com/imfing/hextra)
