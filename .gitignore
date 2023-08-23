@@ -1,3 +1,7 @@
+# Hugo output
 public/
-.vscode/
 resources/
+.hugo_build.lock
+
+# Editor
+.vscode/
