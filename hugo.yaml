@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: My Project
+title: My Site
 
 # import hextra as module
 module:
@@ -15,3 +15,42 @@ markup:
   # enable hextra syntax highlight
   highlight:
     noClasses: false
+
+menu:
+  main:
+    - name: Docs
+      pageRef: /docs
+      weight: 1
+    - name: About
+      pageRef: /about
+      weight: 2
+    - name: Contact ↗
+      url: "https://github.com/imfing"
+      weight: 3
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    - name: GitHub
+      weight: 5
+      url: "https://github.com/imfing/hextra-starter-template"
+      params:
+        icon: github
+    - name: Twitter
+      weight: 6
+      url: "https://twitter.com/"
+      params:
+        icon: x-twitter
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+  footer:
+    displayCopyright: false
+    displayPoweredBy: true
+
+  editURL:
+    enable: true
+    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
