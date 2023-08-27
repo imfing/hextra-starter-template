@@ -1,8 +1,10 @@
 # Hextra Starter Template
 
+[![Deploy Hugo site to Pages](https://github.com/imfing/hextra-starter-template/actions/workflows/pages.yaml/badge.svg)](https://github.com/imfing/hextra-starter-template/actions/workflows/pages.yaml)
+
 🐣 Minimal template for getting started with [Hextra](https://github.com/imfing/hextra)
 
-![](https://github.com/imfing/hextra-starter-template/assets/5097752/f6261b54-df47-4b9b-a5ff-4a386dd3e0e2)
+![hextra-template](https://github.com/imfing/hextra-starter-template/assets/5097752/c403b9a9-a76c-47a6-8466-513d772ef0b7)
 
 ## Local Development
 
