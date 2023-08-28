@@ -1,6 +1,6 @@
 # Hextra Starter Template
 
-[![Deploy Hugo site to Pages](https://github.com/imfing/hextra-starter-template/actions/workflows/pages.yaml/badge.svg)](https://github.com/imfing/hextra-starter-template/actions/workflows/pages.yaml)
+[![Deploy Hugo site to Pages](https://github.com/imfing/hextra-starter-template/actions/workflows/pages.yaml/badge.svg)](https://github.com/imfing/hextra-starter-template/actions/workflows/pages.yaml) [![Netlify Status](https://api.netlify.com/api/v1/badges/6e83fd88-5ffe-4808-9689-c0f3b100bfe3/deploy-status)](https://app.netlify.com/sites/hextra-starter-template/deploys)
 
 🐣 Minimal template for getting started with [Hextra](https://github.com/imfing/hextra)
 
@@ -9,6 +9,8 @@
 [🌐 Demo ↗](https://imfing.github.io/hextra-starter-template/)
 
 ## Quick Start
+
+You can quickly start developing using the following online development environment:
 
 - [GitHub Codespaces](https://github.com/codespaces) 
     
@@ -40,4 +42,9 @@ hugo server --logLevel debug --disableFastRender -p 1313
 
 ### GitHub Pages
 
-A GitHub Actions workflow is provided in [`.github/workflows/pages.yaml`](./.github/workflows/pages.yaml) to [publish to GitHub Pages](https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/) for free.
+A GitHub Actions workflow is provided in [`.github/workflows/pages.yaml`](./.github/workflows/pages.yaml) to [publish to GitHub Pages](https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/) for free. 
+We need to [run the workflow manually](https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow).
+
+### Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/imfing/hextra-starter-template)
