@@ -52,7 +52,7 @@ jobs:
         run: |
           hugo \
             --gc --minify \
-            --baseURL "https://imfing.github.io/hextra-starter-template/"
+            --baseURL "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
