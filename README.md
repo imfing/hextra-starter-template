@@ -52,7 +52,7 @@ See [Update modules](https://gohugo.io/hugo-modules/use-modules/#update-modules)
 ### GitHub Pages
 
 A GitHub Actions workflow is provided in [`.github/workflows/pages.yaml`](./.github/workflows/pages.yaml) to [publish to GitHub Pages](https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/) for free. 
-We need to [run the workflow manually](https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow).
+[Run the workflow manually](https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow) if it's not triggered automatically.
 
 ### Netlify
 
