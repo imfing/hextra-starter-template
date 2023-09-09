@@ -35,6 +35,10 @@ A GitHub Actions workflow is provided in [`.github/workflows/pages.yaml`](./.git
 
 For details, see [Publishing with a custom GitHub Actions workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow).
 
+Note: in the settings, make sure to set the Pages deployment source to **GitHub Actions**:
+
+<img src="https://github.com/imfing/hextra-starter-template/assets/5097752/99676430-884e-42ab-b901-f6534a0d6eee" width=800 />
+
 [Run the workflow manually](https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow) if it's not triggered automatically.
 
 ### Netlify
