@@ -1,3 +1,4 @@
+# dependabot configuration for hextra version update
 # https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates
 version: 2
 updates:
