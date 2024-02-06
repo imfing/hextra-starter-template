@@ -43,7 +43,7 @@ jobs:
           go-version: '1.21'
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v4
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
