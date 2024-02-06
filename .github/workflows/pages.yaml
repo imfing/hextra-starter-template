@@ -41,6 +41,9 @@ jobs:
         uses: actions/setup-go@v4
         with:
           go-version: '1.21'
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v2
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -54,7 +57,7 @@ jobs:
         run: |
           hugo \
             --gc --minify \
-            --baseURL "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
