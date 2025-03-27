@@ -4,7 +4,7 @@ title: My Site
 # import hextra as module
 module:
   imports:
-  - path: github.com/imfing/hextra
+    - path: github.com/imfing/hextra
 
 markup:
   # allow raw html
