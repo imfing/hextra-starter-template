@@ -19,15 +19,11 @@ Use this template to create your own repository:
 
 You can also quickly start developing using the following online development environment:
 
-- [GitHub Codespaces](https://github.com/codespaces) 
-    
+- [GitHub Codespaces](https://github.com/codespaces)
+
     [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/imfing/hextra-starter-template)
 
     Create a new codespace and follow the [Local Development](#local-development) to launch the preview
-
-- [Gitpod](https://gitpod.io)
-
-    [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/imfing/hextra-starter-template)
 
 
 ## Deployment
